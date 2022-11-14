@@ -41,9 +41,10 @@ export default function Home() {
 
             <h2 className='text-4xl py-2 text-red-700 font-bold'>Enzo Cámera</h2>
             <h3 className='text-2xl py-2'>Frontend Developer</h3>
-            <p className='text-md text-lg py-5 leading-8 text-gray-800'>
-              Estudiante autodidacta, basado en la constancia de todos los dias y con habilidades en las tecnologías más solicitadas. 
-              <br></br>
+            <p className='text-md text-lg mt-3 mb-2 leading-8 text-gray-800'>
+              Estudiante autodidacta, con la constancia y disciplina de aprender y mejorar día a día.               
+            </p>
+            <p className='text-md text-lg py-2 leading-8 text-gray-800 mb-6'>
               Interesado en poner a prueba mis conocimientos, aportar a mis pares con buen desempeño y
               cumplir con las responsabilidades asignadas.
             </p>
@@ -61,7 +62,46 @@ export default function Home() {
         <section>
           <h3 className='text-3xl font-bold py-1 mb-2 text-center'>Skills</h3>
           <div>
-            <Image src={codePng} width={100} height={100} alt='Codepng' />
+            <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+              <Image src={codePng} width={100} height={100} alt='Codepng' className='mx-auto' />
+
+              <h3 className='py-4 text-red-700 text-3xl'>Frontend</h3>
+              <p className='text-gray-800 text-xl py-1'>HTML5</p>
+              <p className='text-gray-800 text-xl py-1'>CSS3</p>
+              <p className='text-gray-800 text-xl py-1'>JavaScript</p>
+              <p className='text-gray-800 text-xl py-1'>React.js</p>
+              <p className='text-gray-800 text-xl py-1'>Next.js</p>
+              <p className='text-gray-800 text-xl py-1'>Tailwind CSS</p>
+              <p className='text-gray-800 text-xl py-1'>Styled components</p>
+            </div>
+            
+            <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+              <Image src={consultPng} width={100} height={100} alt='Codepng' className='mx-auto' />
+
+              <h3 className='py-4 text-red-700 text-3xl'>Backend - Databases</h3>
+              <p className='text-gray-800 text-xl py-1'>Node.js</p>
+              <p className='text-gray-800 text-xl py-1'>Express.js</p>
+              <p className='text-gray-800 text-xl py-1'>Mongo DB</p>
+              <p className='text-gray-800 text-xl py-1'>MySQL</p>
+              <p className='text-gray-800 text-xl py-1'>PostgreSQL</p>
+            </div>
+            
+            <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+              <Image src={designPng} width={100} height={100} alt='Codepng' className='mx-auto' />
+
+              <h3 className='py-4 text-red-700 text-3xl'>Others</h3>
+              <p className='text-gray-800 text-xl py-1'>Figma</p>
+              <p className='text-gray-800 text-xl py-1'>NPM</p>
+              <p className='text-gray-800 text-xl py-1'>SCRUM</p>
+              <p className='text-gray-800 text-xl py-1'>Git & Github</p>
+              <p className='text-gray-800 text-xl py-1'>Strapi CMS</p>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div>
+            <h3 className='text-3xl py-1 text-center'>Proyectos Web</h3>
           </div>
         </section>
       </main>
