@@ -26,7 +26,7 @@ a {
   }
   body {
     color: rgb(0, 0, 0);
-    background: #ffffff;
+    background: #fffafa;
   }
 }
 /* 343a40 */
@@ -41,4 +41,8 @@ h1{
 @font-face {
   font-family:'inter' ;
   src: url('../public/Inter-Medium.otf');
+}
+
+.dark, html{
+  background-color: #050505;
 }
